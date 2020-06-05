@@ -1,10 +1,13 @@
 import React from 'react';
-import Hello from '../components/Hello';
+import Hello from '../components/hello/Hello';
+
 
 export default () => (
 
     <div>
-        <Hello name={'Mario'} />
+        <Hello name={'Mario'} color='red' />
     </div>
+        
+    
 
 )

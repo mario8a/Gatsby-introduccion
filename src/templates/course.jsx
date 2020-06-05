@@ -3,7 +3,7 @@ import {graphql} from 'gatsby';
 import Img from 'gatsby-image';
 
 export default (props) => {
-    console.log(props);
+    // console.log(props);
     return (
         <div>
             <h1> {props.pageContext.relativePath} </h1>
